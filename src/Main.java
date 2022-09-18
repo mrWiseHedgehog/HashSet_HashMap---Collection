@@ -31,8 +31,8 @@ public class Main {
         Map.Entry<Character, Integer> maxKey = Collections.max(map.entrySet(), byValue);
         Map.Entry<Character, Integer> minKey = Collections.min(map.entrySet(), byValue);
 
-        System.out.println("Самая частоиспользуемая буква: " + "* " + maxKey.getKey() + " * " + maxKey.getValue());
-        System.out.println("Самая редкоиспользуемая буква: " + "* " + minKey.getKey() + " * " + minKey.getValue());
+        System.out.println("The most commonly used letter: " + "* " + maxKey.getKey() + " * " + maxKey.getValue());
+        System.out.println("The most rarely used letter: " + "* " + minKey.getKey() + " * " + minKey.getValue());
     }
 }
 
