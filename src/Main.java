@@ -24,7 +24,6 @@ public class Main {
                 int currentValue = map.get(currentChar) + 1;
                 map.put(currentChar, currentValue);
             }
-//            System.out.println();
         }
 
         Comparator<Map.Entry<Character, Integer>> byValue = Map.Entry.comparingByValue();
@@ -35,5 +34,3 @@ public class Main {
         System.out.println("The most rarely used letter: " + "* " + minKey.getKey() + " * " + minKey.getValue());
     }
 }
-
-
