@@ -36,13 +36,4 @@ public class Main {
     }
 }
 
-/*
-Объясните мне пожалуйста, какой метод Collection(на подобии метода Collection.max) я могу использовать,
-чтобы красиво достать значение value для max не расширяя свой код?
-
-        int max = Collections.max(map.values());
-        int min = Collections.min(map.values());
-
-        Может есть какой-то метод типа - char max = Collection.maxKey(...)
- */
 
